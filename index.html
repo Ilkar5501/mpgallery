@@ -57,6 +57,12 @@
 /* Keep the same rank hue while lifting its brightness on dark surfaces. */
 [data-theme="dark"] .stat-track>span,[data-theme="dark"] .stat-rank{filter:brightness(1.45)}
 @media(max-width:400px){.nav-label{gap:6px}.version{font-size:9px;padding:6px}.theme-toggle{width:33px;height:33px}.topbar{gap:8px}}
+/* Explicit surfaces keep native dropdowns readable in either theme. */
+.sort-control select{background-color:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:7px}
+select option,select optgroup{background-color:var(--surface);color:var(--ink)}
+.sort-control .select-wrap:after{border-color:var(--muted)}
+[data-theme="light"] select{color-scheme:light}
+[data-theme="dark"] select{color-scheme:dark}
 </style>
 </head>
 <body>
