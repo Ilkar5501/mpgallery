@@ -1,6 +1,6 @@
 # HiQ Battler · Character Archive
 
-A responsive, static character gallery using all 65 cards from the supplied v10.2 characters.json, plus a searchable archive of all 60 items (updated October 26, 2026). Akifumi is listed as a 3-star libero.
+A responsive, static character gallery using all 65 cards from the supplied v10.2 characters.json, plus a searchable archive of all 60 items (v11 item effects updated October 28, 2026). Akifumi is listed as a 3-star libero.
 
 ## GitHub Pages
 
