@@ -1,6 +1,6 @@
 # HiQ Battler · Character Archive
 
-A responsive, static character gallery using all 65 cards from the supplied v10.2 characters.json, plus a searchable archive of all 60 items (v11 item effects updated October 28, 2026). Akifumi is listed as a 3-star libero.
+A responsive, static character gallery using all 66 cards from the supplied v10.2 characters.json, plus a searchable archive of all 60 items (v11 item effects updated October 28, 2026). Akifumi is listed as a 3-star libero.
 
 ## GitHub Pages
 
@@ -22,7 +22,7 @@ GitHub will display your website URL once deployment finishes. No build command,
 - With an item equipped, rankings compare that build with all other unequipped cards. Selecting None restores base stats and rankings. The unused Power or Quick stat stays inapplicable. Extra item effects and drawbacks are shown in full; combat effects are not simulated.
 - Read boon/bane recommendations below the abilities. Missing source guidance is labeled as not yet provided.
 - Open the Items page for the complete list, including effects, eligibility, crafting shard costs, drop rates, and daily/weekly shard caps. Search names, effects, or eligible characters; filter by category or immediate stat changes.
-- Rankings use competition ranking: highest value is rank 1, ties share a rank (for example 1, 1, 3). All 54 card variants are included; filters do not change rankings. Stats are unmodified base values.
+- Rankings use competition ranking: highest value is rank 1, ties share a rank (for example 1, 1, 3). All 66 card variants are included; filters do not change rankings. Stats are unmodified base values.
 - Ultimate cooldown appears in the Ultimate heading.
 - Use the left/right buttons or arrow keys to navigate the current results. Escape closes a card or the mobile filter drawer.
 - Save cards with their bookmark buttons; bookmarks are stored in the current browser.
@@ -31,3 +31,5 @@ GitHub will display your website URL once deployment finishes. No build command,
 All artwork and character data are embedded in index.html. Item data is embedded in both pages. The gallery makes no external requests, uses no trackers, and runs entirely in the browser. Artwork is optimized as WebP. Base values and ability wording are preserved from the supplied character data, with the requested rarity correction for Akifumi. Only the selected item's immediate base-stat modifiers are applied in character details; merges, other build modifiers, and battle effects are not applied.
 
 Character and artwork rights belong to their respective owners. This is an unofficial fan project.
+
+Iizuna — Peerless Anchor and updated Crown of Precision card art added October 29, 2026.
