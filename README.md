@@ -6,7 +6,7 @@ Latest local update: a six-tier maker uses all 67 character icons, with drag-and
 
 ## GitHub Pages
 
-1. Upload **index.html**, **items.html**, **tierlist.html**, and **.nojekyll** to the root of your GitHub repository.
+1. Upload **index.html**, **items.html**, **tierlist.html**, **terms.html**, and **.nojekyll** to the root of your GitHub repository.
 2. Open **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Choose **main**, **/ (root)**, and **Save**.
@@ -37,3 +37,7 @@ Open **Tier List** in the navigation. Drag a character icon into S, A, B, C, D o
 All artwork and character data are embedded in index.html. Item data is embedded in both pages. The gallery makes no external requests, uses no trackers, and runs entirely in the browser. Artwork is optimized as WebP. Base values and ability wording are preserved from the supplied character data, with the requested rarity correction for Akifumi. Only the selected item's immediate base-stat modifiers are applied in character details; merges, other build modifiers, and battle effects are not applied.
 
 Character and artwork rights belong to their respective owners. This is an unofficial fan project.
+
+## Terms of Service
+
+The public Terms of Service are at https://ilkar5501.github.io/mpgallery/terms.html and linked from every archive page. The page covers the Match Point (HiQ Battler) bot and website, Discord requirements, acceptable use, bug exploitation, game balances, enforcement and appeals, and support. A separate, accurate bot privacy policy is still needed; these Terms do not replace one.
