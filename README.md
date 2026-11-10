@@ -6,7 +6,7 @@ Latest local update: a six-tier maker uses all 67 character icons, with drag-and
 
 ## GitHub Pages
 
-1. Upload **index.html**, **items.html**, **tierlist.html**, **terms.html**, and **.nojekyll** to the root of your GitHub repository.
+1. Upload **index.html**, **items.html**, **tierlist.html**, **terms.html**, **privacy.html**, and **.nojekyll** to the root of your GitHub repository.
 2. Open **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Choose **main**, **/ (root)**, and **Save**.
@@ -40,4 +40,8 @@ Character and artwork rights belong to their respective owners. This is an unoff
 
 ## Terms of Service
 
-The public Terms of Service are at https://ilkar5501.github.io/mpgallery/terms.html and linked from every archive page. The page covers the Match Point (HiQ Battler) bot and website, Discord requirements, acceptable use, bug exploitation, game balances, enforcement and appeals, and support. A separate, accurate bot privacy policy is still needed; these Terms do not replace one.
+The public Terms of Service are at https://ilkar5501.github.io/mpgallery/terms.html and linked from every archive page. The page covers the Match Point (HiQ Battler) bot and website, Discord requirements, acceptable use, bug exploitation, game balances, enforcement and appeals, and support. The separate Privacy Policy is linked below.
+
+## Privacy Policy
+
+Public policy: https://ilkar5501.github.io/mpgallery/privacy.html. It describes the bot’s Discord access, stored game/account records, multiplayer visibility, providers, browser storage, retention, and privacy-request contact route. Linked from all archive pages and the Terms of Service. The operator must keep actual hosting, security, retention, and manual request handling consistent with this policy.
