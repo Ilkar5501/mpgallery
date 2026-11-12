@@ -1,8 +1,8 @@
 # HiQ Battler · Character Archive
 
-A responsive, static character gallery using all 67 current cards, plus a searchable archive of all 60 items (v11 item effects updated October 28, 2026). Akifumi is listed as a 3-star libero.
+A responsive, static character gallery using all 72 current cards, plus a searchable archive of all 60 items (v11 item effects updated October 28, 2026). Akifumi is listed as a 3-star libero.
 
-Latest local update: a six-tier maker uses all 67 character icons, with drag-and-drop, mobile tap placement and no saved lists. Sakusa has 50 base Pow, supplied artwork, Jmp > Spd ~ Pow / HP nature guidance, and the clarified 45% per-critical-hit follow-up rule. Position-restricted items use Setter, Middle Blocker and Libero tags.
+Latest gallery update (November 11, 2026): added Ikejiri — Old Friend, Hinata — Furious Upstart, Oikawa — Young Emperor, Kageyama — King of the Lost Court, and the Duo Oikawa & Kageyama — Kings of the Playground. The tier maker includes all 72 icons. The Duo displays a Duo rarity label and supports Base art / Shiny 1 navigation. Previously published cards and their guidance are preserved.
 
 ## GitHub Pages
 
@@ -28,7 +28,7 @@ Open **Tier List** in the navigation. Drag a character icon into S, A, B, C, D o
 - With an item equipped, rankings compare that build with all other unequipped cards. Selecting None restores base stats and rankings. The unused Power or Quick stat stays inapplicable. Extra item effects and drawbacks are shown in full; combat effects are not simulated.
 - Read boon/bane recommendations below the abilities. Missing source guidance is labeled as not yet provided.
 - Open the Items page for the complete list, including effects, eligibility, crafting shard costs, drop rates, and daily/weekly shard caps. Search names, effects, or eligible characters; filter by category or immediate stat changes.
-- Rankings use competition ranking: highest value is rank 1, ties share a rank (for example 1, 1, 3). All 54 card variants are included; filters do not change rankings. Stats are unmodified base values.
+- Rankings use competition ranking: highest value is rank 1, ties share a rank (for example 1, 1, 3). All 72 card variants are included; filters do not change rankings. Stats are unmodified base values.
 - Ultimate cooldown appears in the Ultimate heading.
 - Use the left/right buttons or arrow keys to navigate the current results. Escape closes a card or the mobile filter drawer.
 - Save cards with their bookmark buttons; bookmarks are stored in the current browser.
