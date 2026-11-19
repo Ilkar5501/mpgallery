@@ -52,3 +52,7 @@ Synced the Duo Ultimate cooldown (2) and combat Pow/Qik/Def penalty with the bot
 November 19, 2026: regular equipment costs 2/4/6/8 shards, banks one recipe per day, and recycles for 8/16/24/32 Clan Dollars; item browser shows recycle values.
 
 V13: added 4-star Semi — Pinch Ace, supplied artwork and boon/bane guidance; synchronized the bot roster balance changes and added Semi to the tier-list builder.
+
+## Release notes
+
+Public release notes: https://ilkar5501.github.io/mpgallery/release-notes.html. The page is linked from every main navigation and includes the v13 Semi kit, balance updates and recent included changes.

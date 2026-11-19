@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#152327">
+<meta name="description" content="HiQ Battler release notes: v13 Semi — Pinch Ace, card balance changes, raids, PvP and team controls.">
+<title>Release Notes · HiQ Battler</title>
+<link rel="canonical" href="https://ilkar5501.github.io/mpgallery/release-notes.html">
+<script>try{const t=localStorage.getItem('hiq-theme');document.documentElement.dataset.theme=t==='dark'||t==='light'?t:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch{}</script>
+<style>
+:root{color-scheme:light;--paper:#f4f5f1;--surface:#fff;--ink:#20272a;--muted:#57655e;--line:#dfe3dc;--accent:#ad3d18;--nav:#152327;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+[data-theme="dark"]{color-scheme:dark;--paper:#121a1e;--surface:#1b262b;--ink:#e8eeea;--muted:#a6b3ad;--line:#35423f;--accent:#f7a17b;--nav:#0b1418}
+*{box-sizing:border-box}html{scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink)}a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}button{font:inherit;cursor:pointer}.skip{position:absolute;top:-100px;left:16px;z-index:10;padding:12px;background:var(--surface)}.skip:focus{top:12px}
+.topbar{min-height:76px;background:var(--nav);color:white;display:flex;align-items:center;justify-content:space-between;padding:16px 4%;gap:18px;flex-wrap:wrap}.brand{display:flex;align-items:center;gap:12px;color:white;text-decoration:none;font-size:20px;font-weight:850;letter-spacing:-.6px}.brand-mark{background:#dd582b;width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-size:25px;transform:rotate(-7deg)}.brand-name span{font-weight:450;opacity:.7;margin-left:7px}.nav-tools{display:flex;align-items:center;gap:22px;flex-wrap:wrap}.archive-nav{display:flex;gap:18px;flex-wrap:wrap}.archive-nav a{color:#dbe2dd;text-decoration:none;font-size:13px;padding:6px 0}.archive-nav a:hover,.archive-nav a[aria-current]{color:#ffae8d}.archive-nav a[aria-current]{border-bottom:2px solid #dd582b}.theme-toggle{background:transparent;border:1px solid #ffffff60;color:white;border-radius:9px;width:36px;height:36px;font-size:19px}
+main{max-width:920px;margin:auto;padding:52px 28px 60px}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:750;color:var(--accent);margin:0 0 12px}h1{font-size:clamp(32px,6vw,46px);letter-spacing:-1.4px;line-height:1.15;margin:0 0 16px}.lead{font-size:17px;line-height:1.7;max-width:720px}.dates{font-size:13px;color:var(--muted);margin:16px 0 28px}.contents{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 26px;margin:28px 0 36px}.contents summary{font-size:15px;font-weight:750;cursor:pointer}.contents ol{columns:2;column-gap:32px;padding-left:22px;margin-bottom:0}.contents li{padding:4px 0;break-inside:avoid;font-size:14px}.terms section{padding:24px 0;border-top:1px solid var(--line)}h2{font-size:21px;letter-spacing:-.35px;line-height:1.4;margin:0 0 14px}.terms p,.terms li{font-size:15px;line-height:1.85}.terms p{margin:0 0 14px}.terms p:last-child{margin-bottom:0}.terms ul{padding-left:24px;margin:12px 0}.terms li+li{margin-top:8px}.footer{border-top:1px solid var(--line);padding:24px 0 0;margin-top:12px;font-size:12px;line-height:1.8;color:var(--muted)}
+@media(max-width:640px){.topbar{padding:14px 5%;gap:14px}.brand{font-size:18px}.brand-mark{width:32px;height:32px;font-size:22px}.nav-tools{gap:14px}.archive-nav{gap:12px}.archive-nav a{font-size:12px}main{padding:32px 20px 40px}.contents{padding:18px 20px}.contents ol{columns:1}.lead{font-size:16px}.terms section{padding:22px 0}h2{font-size:20px}}
+
+.policy-menu{position:relative;color:#dbe2dd;font-size:12px}.policy-menu summary{cursor:pointer;list-style:none;padding:6px 0;white-space:nowrap}.policy-menu summary::-webkit-details-marker{display:none}.policy-menu summary::after{content:" ▾"}.policy-menu[open] summary::after{content:" ▴"}.policy-menu summary:focus-visible{outline:3px solid #ea7e4c;outline-offset:4px}.policy-links{position:absolute;right:0;top:100%;min-width:180px;padding:8px;background:#152327;border:1px solid #ffffff40;border-radius:10px;box-shadow:0 12px 28px #0004;z-index:30;display:flex;flex-direction:column;gap:2px}.archive-nav .policy-links a{display:block;padding:10px 12px;white-space:nowrap;border-bottom:0;color:#dbe2dd}.archive-nav .policy-links a:hover,.archive-nav .policy-links a[aria-current="page"]{background:#ffffff12;color:#ffae8d;border-radius:5px}
+</style>
+<style>.nav-tools{min-width:0}.archive-nav{flex-wrap:wrap;row-gap:10px}</style>
+<style>
+main{max-width:960px;padding-top:40px}.release-intro{margin-bottom:30px}
+.release-intro h1{margin-bottom:10px}.release-date{color:var(--muted);font-size:14px}
+.release{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,40px)}
+.release>h2{margin:0 0 28px;font-size:26px;line-height:1.3;scroll-margin-top:20px}
+.release section+section{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.release h3{font-size:19px;margin:0 0 12px;line-height:1.4}.release p{line-height:1.8}
+.release ul{padding-left:22px;margin:0}.release li{line-height:1.8;margin:10px 0}
+.release code{font-family:ui-monospace,Consolas,monospace;font-size:.92em;background:var(--paper);padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}
+.release-statline{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
+.release-jump{display:flex;flex-wrap:wrap;gap:8px 20px;margin:18px 0 24px}
+.release-jump a{font-size:14px}.release a{overflow-wrap:anywhere}
+@media(max-width:480px){main{padding-left:16px;padding-right:16px}.release{padding:20px}.release>h2{font-size:23px}.release h3{font-size:18px}.release li{line-height:1.7}.release-statline{line-height:1.8}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to release notes</a>
+<header class="topbar"><a class="brand" href="./index.html" aria-label="HiQ Battler home"><span class="brand-mark" aria-hidden="true">🏐</span><span class="brand-name">HiQ<span>Battler</span></span></a><div class="nav-tools"><nav class="archive-nav" aria-label="Website"><a href="./index.html">Characters</a><a href="./items.html">Items</a><a href="./tierlist.html">Tier List</a><a href="./release-notes.html" aria-current="page">Release Notes</a><details class="policy-menu"><summary>Terms &amp; Policies</summary><div class="policy-links"><a href="./terms.html">Terms of Service</a><a href="./privacy.html">Privacy Policy</a></div></details></nav><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">◐</button></div></header>
+<main id="main"><header class="release-intro"><h1>Release Notes</h1><p class="release-date">V13.0.0 · <time datetime="2026-11-19">November 19, 2026</time></p><nav class="release-jump" aria-label="Release sections"><a href="#semi">Semi</a><a href="#balance">Balance</a><a href="#included">Recent updates included</a></nav></header><article class="release" aria-labelledby="v13-0-0"><h2 id="v13-0-0">V13 — Semi &amp; balance update</h2>
+<section id="semi" aria-labelledby="semi-title"><h3 id="semi-title">New 4★: Semi — Pinch Ace</h3>
+<p class="release-statline">150 HP · 53 Qik · 27 Def · 28 Rec · 36 Spd · 35 Jmp</p>
+<ul><li><strong>Lightning Serve (CD 4):</strong> Before initiating, deals <code>(Qik−foe’s Rec) × 0.8</code> per foe, minimum 0. Uses pre-combat stats.</li><li><strong>Talent’s Troubles:</strong> Qik/Spd+5 when initiating. After his serve, non-Setter allies gain Pow/Qik+4 for their next combat.</li><li><strong>Setter’s Magic:</strong> Each turn, reduces remaining Ult CD by 1 per allied Setter, including himself; capped at 3.</li><li><strong>Rightful Rhythm:</strong> After combat, refunds 1 Ult CD if his Ultimate triggered.</li></ul><p>Find Semi in 4★ sources; <code>;gallery Semi</code> has his kit and boon/bane advice.</p></section>
+<section id="balance" aria-labelledby="balance-title"><h3 id="balance-title">Balance</h3>
+<ul><li>Unnan: Pow 49, Jmp 39; Def check now ≥ foe’s Def; Ultimate damage reduction 55%; C neutralizes his visible penalties in combat.</li><li>Ezota: Rec 34. Nozawa: HP 172. Kita: Rec 36.</li><li>Goshiki: Pow 51; Killer Instinct reduces foe’s Def/Rec by 25%.</li><li>All Liberos: +1 base Rec.</li><li>Suna: HP 156, Qik 51, Def 34, Jmp 35.</li><li>Hirugami: HP 168, Pow 47, Jmp 34.</li></ul></section>
+<section id="included" aria-labelledby="included-title"><h3 id="included-title">Recent updates included</h3>
+
+<ul><li>Regular raid items cost 2/4/6/8 shards, accrue one craft per item daily, and recycle for 8/16/24/32 Clan Dollars. Rollover stays. Unique items recycle for 100.</li><li>Targeted PvP losers can retry immediately; the last winner waits for a return win. Weekly packs stack from 1★ up to 5★ by rank; Elo resets every two weeks.</li><li>Gauntlet fresh-team bonuses have separate banked allowances. Raid <code>;qv</code> includes Young Emperor’s extra currency.</li><li>Tournament human-entry rewards remain separate from win rewards.</li><li>AF1 has five slots: <code>;af1 [slot]</code> selects and runs a team. Duo: Ult CD 2; inflicts Pow/Qik/Def−4 on its attacking foe for that combat.</li><li>Merge selections stay visible. Duo Blessings share the regular Blessing listing.</li><li>Team builders have immediate Clear Team controls, separated from Confirm. Battle logs name targets of turn/action-start effects.</li></ul></section>
+</article><footer class="footer"><a href="./index.html?name=Semi">View Semi</a> · <a href="./index.html">Characters</a> · <a href="#main">Back to top</a></footer></main>
+<script>
+const toggle=document.getElementById('theme-toggle');
+function syncTheme(){toggle.setAttribute('aria-pressed',String(document.documentElement.dataset.theme==='dark'));}
+toggle.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('hiq-theme',theme);}catch{}syncTheme();});
+syncTheme();
+</script>
+</body>
+</html>
