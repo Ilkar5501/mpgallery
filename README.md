@@ -48,3 +48,5 @@ Public policy: https://ilkar5501.github.io/mpgallery/privacy.html. It describes 
 
 November 19, 2026: added Kings of the Playground boon guidance (Pow > Jmp) and HP bane guidance.
 Synced the Duo Ultimate cooldown (2) and combat Pow/Qik/Def penalty with the bot; character data date is November 19.
+
+November 19, 2026: regular equipment costs 2/4/6/8 shards, banks one recipe per day, and recycles for 8/16/24/32 Clan Dollars; item browser shows recycle values.
