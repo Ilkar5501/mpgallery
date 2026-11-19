@@ -47,3 +47,4 @@ The public Terms of Service are at https://ilkar5501.github.io/mpgallery/terms.h
 Public policy: https://ilkar5501.github.io/mpgallery/privacy.html. It describes the bot’s Discord access, stored game/account records, multiplayer visibility, providers, browser storage, retention, and privacy-request contact route. Linked from all archive pages and the Terms of Service. The operator must keep actual hosting, security, retention, and manual request handling consistent with this policy.
 
 November 19, 2026: added Kings of the Playground boon guidance (Pow > Jmp) and HP bane guidance.
+Synced the Duo Ultimate cooldown (2) and combat Pow/Qik/Def penalty with the bot; character data date is November 19.
