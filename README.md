@@ -1,8 +1,8 @@
 # HiQ Battler · Character Archive
 
-A responsive, static character gallery using all 72 current cards, plus a searchable archive of all 60 items (v11 item effects updated October 28, 2026). Akifumi is listed as a 3-star libero.
+A responsive, static character gallery using all 73 current cards, plus a searchable archive of all 60 items (v11 item effects updated October 28, 2026). Akifumi is listed as a 3-star libero.
 
-Latest gallery update (November 11, 2026): added Ikejiri — Old Friend, Hinata — Furious Upstart, Oikawa — Young Emperor, Kageyama — King of the Lost Court, and the Duo Oikawa & Kageyama — Kings of the Playground. The tier maker includes all 72 icons. The Duo displays a Duo rarity label and supports Base art / Shiny 1 navigation. Previously published cards and their guidance are preserved.
+November 11, 2026 update: added Ikejiri — Old Friend, Hinata — Furious Upstart, Oikawa — Young Emperor, Kageyama — King of the Lost Court, and the Duo Oikawa & Kageyama — Kings of the Playground. The tier maker now includes all 73 icons. The Duo displays a Duo rarity label and supports Base art / Shiny 1 navigation. Previously published cards and their guidance are preserved.
 
 ## GitHub Pages
 
@@ -50,3 +50,5 @@ November 19, 2026: added Kings of the Playground boon guidance (Pow > Jmp) and H
 Synced the Duo Ultimate cooldown (2) and combat Pow/Qik/Def penalty with the bot; character data date is November 19.
 
 November 19, 2026: regular equipment costs 2/4/6/8 shards, banks one recipe per day, and recycles for 8/16/24/32 Clan Dollars; item browser shows recycle values.
+
+V13: added 4-star Semi — Pinch Ace, supplied artwork and boon/bane guidance; synchronized the bot roster balance changes and added Semi to the tier-list builder.
