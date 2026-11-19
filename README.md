@@ -45,3 +45,5 @@ The public Terms of Service are at https://ilkar5501.github.io/mpgallery/terms.h
 ## Privacy Policy
 
 Public policy: https://ilkar5501.github.io/mpgallery/privacy.html. It describes the bot’s Discord access, stored game/account records, multiplayer visibility, providers, browser storage, retention, and privacy-request contact route. Linked from all archive pages and the Terms of Service. The operator must keep actual hosting, security, retention, and manual request handling consistent with this policy.
+
+November 19, 2026: added Kings of the Playground boon guidance (Pow > Jmp) and HP bane guidance.
