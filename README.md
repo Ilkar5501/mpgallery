@@ -56,3 +56,5 @@ V13: added 4-star Semi — Pinch Ace, supplied artwork and boon/bane guidance; s
 ## Release notes
 
 Public release notes: https://ilkar5501.github.io/mpgallery/release-notes.html. The page is linked from every main navigation and includes the v13 Semi kit, balance updates and recent included changes.
+
+November 20, 2026: v13.0.1 notes clarify that PvP rematches are allowed; the last-winner rule affects Elo eligibility only.
