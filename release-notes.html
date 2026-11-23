@@ -37,7 +37,33 @@ main{max-width:960px;padding-top:40px}.release-intro{margin-bottom:30px}
 <body>
 <a class="skip" href="#main">Skip to release notes</a>
 <header class="topbar"><a class="brand" href="./index.html" aria-label="HiQ Battler home"><span class="brand-mark" aria-hidden="true">🏐</span><span class="brand-name">HiQ<span>Battler</span></span></a><div class="nav-tools"><nav class="archive-nav" aria-label="Website"><a href="./index.html">Characters</a><a href="./items.html">Items</a><a href="./tierlist.html">Tier List</a><a href="./release-notes.html" aria-current="page">Release Notes</a><details class="policy-menu"><summary>Terms &amp; Policies</summary><div class="policy-links"><a href="./terms.html">Terms of Service</a><a href="./privacy.html">Privacy Policy</a></div></details></nav><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">◐</button></div></header>
-<main id="main"><header class="release-intro"><h1>Release Notes</h1><p class="release-date">Latest: V13.0.1 · <time datetime="2026-11-20">November 20, 2026</time></p><nav class="release-jump" aria-label="Release sections"><a href="#v13-0-1">PvP rematch fix</a><a href="#semi">Semi</a><a href="#balance">Balance</a><a href="#included">Recent updates included</a></nav></header><article class="release" aria-labelledby="v13-0-1"><h2 id="v13-0-1">V13.0.1 — PvP rematches</h2>
+<main id="main"><header class="release-intro"><h1>Release Notes</h1><p class="release-date">Latest: V14.0.0 · <time datetime="2026-11-22">November 22, 2026</time></p><nav class="release-jump" aria-label="Release sections"><a href="#v14-0-0">V14 update</a><a href="#v14-pvp">PvP</a><a href="#v14-loadouts">Team locks</a><a href="#v14-cards">New cards</a><a href="#v14-items">Items</a></nav></header><article class="release" aria-labelledby="v14-0-0"><h2 id="v14-0-0">V14.0.0 · Team builds and Tiny Titans PvP</h2>
+<p class="release-date"><time datetime="2026-11-22">November 22, 2026</time></p>
+<section id="v14-pvp"><h3>PvP matchmaking</h3><ul>
+<li><code>;pvp</code> works through a shuffled daily queue of eligible opponents. Players you have already faced go behind fresh opponents. After the queue pass, it picks a random unrated match. A later rated result can requeue a newly eligible opponent at the rear.</li>
+<li>If you won a pair’s last rated match today, your next challenge against them is unrated. If they beat you in a rated rematch, you can earn or lose Elo against them again. Unrated results never change that record.</li>
+<li>Eligibility resets at midnight in the game timezone. Results are labelled Rated or Unrated.</li></ul></section>
+<section><h3>Tiny Titans PvP</h3><ul>
+<li><code>;pvpttb [@player]</code> uses its own Elo board, daily matchup records and coin allowance. Use <code>;pvpttbboard</code> for standings.</li>
+<li>Four cards from each rarity 1★–4★ receive the normal Tiny Titans stat boost each week. <code>;ttbboosts</code> lists the picks. 5★ and Duo cards are never boosted, and no card is selected two weeks in a row.</li>
+<li>Weekly rewards stack: everyone eligible gets 100 Clan Dollars, with another 200/300/400/500 for the top 80%/60%/40%/20%. The top bracket earns 1,500 total. Play a rated match in the current two-week season to qualify.</li>
+<li>Boosts and weekly rewards change at Monday’s cutoff. Elo resets every two weeks, on that same cutoff. Normal PvP retains its existing pack rewards.</li></ul></section>
+<section id="v14-loadouts"><h3>Locked team builds</h3><ul>
+<li>Lock a loadout in <code>;teamedit</code>, <code>;af1team</code> or <code>;pvpset</code> to preserve its characters, rows and exact item copies.</li>
+<li>A character can hold different items in different locked teams. Using the same character and item copy across several teams reserves only one copy. Other characters need their own copies.</li>
+<li>Reserved items cannot be moved to another character, recycled or traded. Item views show the teams holding each copy.</li>
+<li>Unlocking previews item changes and returns to current equipped items. An unlocked PvP lineup also refreshes from its source team.</li></ul></section>
+<section id="v14-cards"><h3>New cards</h3><ul>
+<li><strong>5★ Hirugami — The Great Wall:</strong> supports front-line Wall allies with damage scaling and flat reduction. Monster Block reduces a foe’s hit and reflects the prevented damage after combat, up to 20. Stuff Block adds Heal Block, team damage and a limited cleanse.</li>
+<li><strong>1★ Kunimi — Energy Saver:</strong> builds Reserve stacks, then spends them on Full Power for a burst of Pow/Spd/Jmp. Spending three stacks prevents counterattacks. Lazy Tip gains extra damage during Full Power.</li>
+<li><strong>Hirugami — The Immovable Gate</strong> is now 4★.</li></ul></section>
+<section id="v14-items"><h3>Equipment and smaller changes</h3><ul>
+<li><strong>Fish Cakes:</strong> Recovery raid, 2 shards. Protects its wearer from foe effects after combat or outside their own combat. Blocks foe after-combat team damage when the wearer fought, but does not block Save or redirect triggers.</li>
+<li><strong>Chocolate Milk:</strong> Tempo raid, 2 shards. Protects its wearer and same-row allies from foe effects that increase remaining Ultimate cooldown.</li>
+<li><strong>Aran’s unique item</strong> converts positive visible and in-combat Spd bonuses into Jmp at 100%, up from 70%. Visible Spd penalties do not reduce the conversion.</li>
+<li>Unique equipment follows regular items in <code>;items</code> and has a blue <strong>[Unique]</strong> category on the website. <code>;tv [slot]</code> aliases teamview. Clear Team uses a broom and a grey or blurple button.</li></ul></section>
+</article>
+<article class="release" aria-labelledby="v13-0-1"><h2 id="v13-0-1">V13.0.1 — PvP rematches</h2>
 <p class="release-date"><time datetime="2026-11-20">November 20, 2026</time></p>
 <ul><li><strong>Rematches are allowed.</strong> The last-ranked-winner rule now controls Elo eligibility instead of blocking the battle.</li><li>If you won the pair’s last ranked match, you can still challenge that opponent; the rematch is unrated and changes neither player’s Elo.</li><li>The losing player can immediately initiate a ranked rematch. Their ranked win restores the other player’s Elo eligibility.</li><li>Daily coin limits, PvP Shields and valid-team requirements remain unchanged.</li></ul></article>
 <article class="release" aria-labelledby="v13-0-0"><h2 id="v13-0-0">V13 — Semi &amp; balance update</h2>
